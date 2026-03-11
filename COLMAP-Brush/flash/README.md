@@ -1,4 +1,6 @@
-# COLMAP + Brush — 3DGS Pipeline (RunPod Flash)
+# COLMAP + Brush — 3DGS Pipeline (RunPod Flash) (WIP)
+
+> **⚠️ BETA Notice:** This implementation is currently in beta and not finished yet.
 
 Generate 3D Gaussian Splatting (`.ply`) from a set of images using **COLMAP** for structure-from-motion and **Brush** for Gaussian Splat training. Deployed as a **RunPod Flash** endpoint — no Dockerfile required.
 

@@ -20,7 +20,7 @@ The pipeline uses **COLMAP** (non-CUDA, CPU-only) for structure-from-motion and 
 | ---- | ----------- | ---- |
 | **Pod** | Interactive — run the script manually on a RunPod GPU pod | [README](COLMAP-Brush/pod/README.md) |
 | **Serverless** | API-driven — deploy as a RunPod serverless endpoint | [README](COLMAP-Brush/serverless/README.md) |
-| **Flash** | API-driven — deploy with RunPod Flash (no Dockerfile needed) | [README](COLMAP-Brush/flash/README.md) |
+| **Flash (WIP)** | API-driven — deploy with RunPod Flash (no Dockerfile needed) | [README](COLMAP-Brush/flash/README.md) |
 
 ---
 
@@ -52,6 +52,10 @@ For full details, prerequisites, and usage examples, please refer to the [Client
 │   └── flash/                # RunPod Flash (no Dockerfile)
 │       ├── runpod_flash_endpoint.py
 │       └── README.md
+├── client/                   # Automated Client
+│   ├── client.py
+│   ├── requirements.txt
+│   └── README.md
 ├── LICENSE
 └── README.md
 ```
